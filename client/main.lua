@@ -75,7 +75,7 @@ Citizen.CreateThread(function()
           if IsPedOnMount(PlayerPedId()) or IsPedOnVehicle(PlayerPedId()) then
             SetMinimapType(1)
           else
-              SetMinimapType(3)
+              SetMinimapType(1)
           end
      end
   end)
